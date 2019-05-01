@@ -12,7 +12,6 @@ end
 
 def display_card_total(cardtotal)
   puts "Your cards add up to #{cardtotal}"
-  
   # code #display_card_total here
 end
 
