@@ -42,7 +42,6 @@ end
 def hit?(cardtotal)
   prompt_user
   
-  
   input = get_user_input
   hit = cardtotal + deal_card
   
