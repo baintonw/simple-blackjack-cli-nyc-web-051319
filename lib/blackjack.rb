@@ -38,7 +38,9 @@ def initial_round
  display_card_total(hand)
  return hand
 end
+
 cardtotal = initial_round
+
 def hit?(cardtotal)
   prompt_user
   
