@@ -64,10 +64,12 @@ end
 #####################################################
 
 def runner
-  
-  until cardtotal > 21
   welcome
   initial_round
+  
+  until cardtotal > 21
+  
+  
   hit?(cardtotal)
   display_card_total
 end
