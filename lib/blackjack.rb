@@ -1,4 +1,4 @@
-cardtotal = initial_round
+
 
 def welcome
   puts "Welcome to the Blackjack Table"
