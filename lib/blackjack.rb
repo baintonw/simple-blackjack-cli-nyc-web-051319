@@ -1,4 +1,4 @@
-cardtotal = intial_round
+cardtotal = hit?(initial_round)
 
 def welcome
   puts "Welcome to the Blackjack Table"
@@ -12,7 +12,6 @@ end
 
 def display_card_total(cardtotal)
   puts "Your cards add up to #{cardtotal}"
-  cardtotal = hit?(initial_round)
   
   # code #display_card_total here
 end
